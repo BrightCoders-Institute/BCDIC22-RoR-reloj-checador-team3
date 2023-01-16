@@ -4,3 +4,4 @@ debug.log
 /config/master.key
 
 # ignore file named database.yml
+/config/database.yml

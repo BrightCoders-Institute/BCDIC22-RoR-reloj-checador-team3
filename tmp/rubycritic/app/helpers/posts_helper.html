@@ -47,12 +47,12 @@
     <div class="file-time">
       <span class="committed-at">
         
-          Updated <time class='js-timeago' datetime='2023-01-12 18:07:40 -0600'>2023-01-12 18:07:40 -0600</time>
+          Updated <time class='js-timeago' datetime='2023-01-16 15:42:34 -0600'>2023-01-16 15:42:34 -0600</time>
         
       </span>
     </div>
     <div>
-      <h3><small>config/initializers /</small> content_security_policy.rb</h3>
+      <h3><small>app/helpers /</small> posts_helper.rb</h3>
     </div>
   </div>
   <!--End Page Title -->
@@ -68,12 +68,12 @@
           </div>
           <div class="code-statistics col-md-11">
             <div class="col-md-3">
-              <div><span class="metric">25</span><small> lines of codes</small></div>
+              <div><span class="metric">2</span><small> lines of codes</small></div>
               <div><span class="metric">0</span><small> methods</small></div>
             </div>
             <div class="col-md-3">
               <div><span class="metric">N/A</span><small> complexity/method</small></div>
-              <div><span class="metric">2</span><small> churn</small></div>
+              <div><span class="metric">1</span><small> churn</small></div>
             </div>
             <div class="col-md-3">
               <div><span class="metric">0.0</span><small> complexity</small></div>
@@ -88,7 +88,7 @@
             <li><a href="#" id="toggle-code" class="toggle-button button">code</a></li>
             <li class="active">
               <a href="#" id="toggle-smells" class="toggle-button button">
-                0
+                1
                 smell
               </a>
             </li>
@@ -97,31 +97,8 @@
       </div>
     </div>
 
-    <code class="prettyprint linenums lang-ruby file-code js-file-code"># Be sure to restart your server when you modify this file.
-
-# Define an application-wide content security policy.
-# See the Securing Rails Applications Guide for more information:
-# https://guides.rubyonrails.org/security.html#content-security-policy-header
-
-# Rails.application.configure do
-#   config.content_security_policy do |policy|
-#     policy.default_src :self, :https
-#     policy.font_src    :self, :https, :data
-#     policy.img_src     :self, :https, :data
-#     policy.object_src  :none
-#     policy.script_src  :self, :https
-#     policy.style_src   :self, :https
-#     # Specify URI for violation reports
-#     # policy.report_uri &quot;/csp-violation-report-endpoint&quot;
-#   end
-#
-#   # Generate session nonces for permitted importmap and inline scripts
-#   config.content_security_policy_nonce_generator = -&gt;(request) { request.session.id.to_s }
-#   config.content_security_policy_nonce_directives = %w(script-src)
-#
-#   # Report violations without enforcing the policy.
-#   # config.content_security_policy_report_only = true
-# end
+    <code class="prettyprint linenums lang-ruby file-code js-file-code">module PostsHelper<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="https://github.com/troessner/reek/blob/master/docs/Irresponsible-Module.md" target="_blank"><b>IrresponsibleModule</b></a>        </span>      </div>      <span>PostsHelper has no descriptive comment</span>          </div>  </li></ol>
+end
 </code>
   </div>
 </div>

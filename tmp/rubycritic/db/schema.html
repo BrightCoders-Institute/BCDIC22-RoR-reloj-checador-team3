@@ -47,12 +47,12 @@
     <div class="file-time">
       <span class="committed-at">
         
-          Updated <time class='js-timeago' datetime='2023-01-12 18:07:40 -0600'>2023-01-12 18:07:40 -0600</time>
+          Updated <time class='js-timeago' datetime='2023-01-16 15:42:34 -0600'>2023-01-16 15:42:34 -0600</time>
         
       </span>
     </div>
     <div>
-      <h3><small>config /</small> importmap.rb</h3>
+      <h3><small>db /</small> schema.rb</h3>
     </div>
   </div>
   <!--End Page Title -->
@@ -68,15 +68,15 @@
           </div>
           <div class="code-statistics col-md-11">
             <div class="col-md-3">
-              <div><span class="metric">7</span><small> lines of codes</small></div>
+              <div><span class="metric">24</span><small> lines of codes</small></div>
               <div><span class="metric">0</span><small> methods</small></div>
             </div>
             <div class="col-md-3">
               <div><span class="metric">N/A</span><small> complexity/method</small></div>
-              <div><span class="metric">2</span><small> churn</small></div>
+              <div><span class="metric">1</span><small> churn</small></div>
             </div>
             <div class="col-md-3">
-              <div><span class="metric">0.0</span><small> complexity</small></div>
+              <div><span class="metric">6.4</span><small> complexity</small></div>
               <div><span class="metric">0</span><small> duplications</small></div>
             </div>
           </div>
@@ -97,13 +97,30 @@
       </div>
     </div>
 
-    <code class="prettyprint linenums lang-ruby file-code js-file-code"># Pin npm packages by running ./bin/importmap
+    <code class="prettyprint linenums lang-ruby file-code js-file-code"># This file is auto-generated from the current state of the database. Instead
+# of editing this file, please use the migrations feature of Active Record to
+# incrementally modify your database, and then regenerate this schema definition.
+#
+# This file is the source Rails uses to define your schema when running `bin/rails
+# db:schema:load`. When creating a new database, `bin/rails db:schema:load` tends to
+# be faster and is potentially less error prone than running all of your
+# migrations from scratch. Old migrations may fail to apply correctly if those
+# migrations use external dependencies or application code.
+#
+# It&#39;s strongly recommended that you check this file into your version control system.
 
-pin &quot;application&quot;, preload: true
-pin &quot;@hotwired/turbo-rails&quot;, to: &quot;turbo.min.js&quot;, preload: true
-pin &quot;@hotwired/stimulus&quot;, to: &quot;stimulus.min.js&quot;, preload: true
-pin &quot;@hotwired/stimulus-loading&quot;, to: &quot;stimulus-loading.js&quot;, preload: true
-pin_all_from &quot;app/javascript/controllers&quot;, under: &quot;controllers&quot;
+ActiveRecord::Schema[7.0].define(version: 2023_01_11_211342) do
+  # These are extensions that must be enabled in order to support this database
+  enable_extension &quot;plpgsql&quot;
+
+  create_table &quot;posts&quot;, force: :cascade do |t|
+    t.string &quot;title&quot;
+    t.string &quot;description&quot;
+    t.datetime &quot;created_at&quot;, null: false
+    t.datetime &quot;updated_at&quot;, null: false
+  end
+
+end
 </code>
   </div>
 </div>

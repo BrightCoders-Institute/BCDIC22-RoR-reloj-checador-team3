@@ -47,7 +47,7 @@
     <div class="file-time">
       <span class="committed-at">
         
-          Never committed
+          Updated <time class='js-timeago' datetime='2023-01-16 15:42:34 -0600'>2023-01-16 15:42:34 -0600</time>
         
       </span>
     </div>
@@ -68,12 +68,12 @@
           </div>
           <div class="code-statistics col-md-11">
             <div class="col-md-3">
-              <div><span class="metric">6</span><small> lines of codes</small></div>
+              <div><span class="metric">4</span><small> lines of codes</small></div>
               <div><span class="metric">0</span><small> methods</small></div>
             </div>
             <div class="col-md-3">
               <div><span class="metric">N/A</span><small> complexity/method</small></div>
-              <div><span class="metric">0</span><small> churn</small></div>
+              <div><span class="metric">3</span><small> churn</small></div>
             </div>
             <div class="col-md-3">
               <div><span class="metric">0.0</span><small> complexity</small></div>
@@ -98,10 +98,8 @@
     </div>
 
     <code class="prettyprint linenums lang-ruby file-code js-file-code">Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route (&quot;/&quot;)
-  # root &quot;articles#index&quot;
+  root &#39;posts#index&#39;
+  resources :posts
 end
 </code>
   </div>
