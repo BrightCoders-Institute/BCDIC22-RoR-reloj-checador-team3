@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <h4 class="mt-4 display-4">Listing Stores</h4>
+  </div>
+  <%= link_to 'Register Store', new_store_path %>
+  <% if @stores.present? %>
+    <div class="row justify-content-center">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Address</th>
+            <th scope="col" colspan="3">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% @stores.each do |store| %>
+            <tr>
+              <td><%= store.name %></td>
+              <td><%= store.address %></td>
+              <td><%= link_to 'Show', store_path(store.id) %></td>
+              <td><%= link_to 'Edit', edit_store_path(store.id) %></td>   
+              <td><%= button_to 'Delete', store_path(store.id), method: :delete %></td>           
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+  <% else %>
+    <div class="p-3 mb-2 bg-light text-dark">
+      <span class="text-info font-weight-bold">Welcome! </span>
+      Register an Store
+    </div>
+  <% end %>
+</div>
