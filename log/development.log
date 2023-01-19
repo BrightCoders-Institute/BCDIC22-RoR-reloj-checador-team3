@@ -293,3 +293,79 @@ Processing by StoresController#index as TURBO_STREAM
 Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 0.4ms | Allocations: 3235)
 
 
+Started GET "/stores/new" for 127.0.0.1 at 2023-01-19 16:03:33 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StoresController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering stores/new.html.erb within layouts/application
+  Rendered stores/new.html.erb within layouts/application (Duration: 15.3ms | Allocations: 3092)
+  Rendered layout layouts/application.html.erb (Duration: 143.8ms | Allocations: 38830)
+Completed 200 OK in 160ms (Views: 149.2ms | ActiveRecord: 0.0ms | Allocations: 41831)
+
+
+Started GET "/stores/new" for 127.0.0.1 at 2023-01-19 16:04:31 -0600
+Processing by StoresController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering stores/new.html.erb within layouts/application
+  Rendered stores/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1230)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 3790)
+Completed 200 OK in 22ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 4645)
+
+
+Started POST "/stores" for 127.0.0.1 at 2023-01-19 16:04:51 -0600
+Processing by StoresController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "store"=>{"name"=>"tienda 1", "address"=>"prueba 1"}, "commit"=>"Save Store"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/stores_controller.rb:26:in `create'
+  [1m[36mStore Create (1.2ms)[0m  [1m[32mINSERT INTO "stores" ("name", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "tienda 1"], ["address", "prueba 1"], ["created_at", "2023-01-19 22:04:51.866633"], ["updated_at", "2023-01-19 22:04:51.866633"]]
+  ↳ app/controllers/stores_controller.rb:26:in `create'
+  [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/stores_controller.rb:26:in `create'
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 33ms (ActiveRecord: 10.0ms | Allocations: 8311)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 16:04:51 -0600
+Processing by StoresController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering stores/index.html.erb within layouts/application
+  [1m[36mStore Load (0.8ms)[0m  [1m[34mSELECT "stores".* FROM "stores"[0m
+  ↳ app/views/stores/index.html.erb:6
+  Rendered stores/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1678)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 3979)
+Completed 200 OK in 21ms (Views: 17.5ms | ActiveRecord: 0.8ms | Allocations: 4473)
+
+
+Started GET "/stores/new" for 127.0.0.1 at 2023-01-19 16:05:02 -0600
+Processing by StoresController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering stores/new.html.erb within layouts/application
+  Rendered stores/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 851)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 3044)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 3303)
+
+
+Started POST "/stores" for 127.0.0.1 at 2023-01-19 16:05:09 -0600
+Processing by StoresController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "store"=>{"name"=>"tienda 2", "address"=>"prueba 2"}, "commit"=>"Save Store"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/stores_controller.rb:26:in `create'
+  [1m[36mStore Create (0.4ms)[0m  [1m[32mINSERT INTO "stores" ("name", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "tienda 2"], ["address", "prueba 2"], ["created_at", "2023-01-19 22:05:09.546131"], ["updated_at", "2023-01-19 22:05:09.546131"]]
+  ↳ app/controllers/stores_controller.rb:26:in `create'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/stores_controller.rb:26:in `create'
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 11ms (ActiveRecord: 1.3ms | Allocations: 2198)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 16:05:09 -0600
+Processing by StoresController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering stores/index.html.erb within layouts/application
+  [1m[36mStore Load (0.3ms)[0m  [1m[34mSELECT "stores".* FROM "stores"[0m
+  ↳ app/views/stores/index.html.erb:6
+  Rendered stores/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1360)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 3553)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.3ms | Allocations: 3827)
+
+
