@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <h4 class="mt-4 mb-4 display-4">Show details of employee <%= @employee.name %></h4>
+  </div>
+  <div class="row justify-content-center">
+    <table class="table">
+      <tbody>
+        <tr>
+          <th>Email:</th>
+          <td><%= @employee.email %></td>
+        </tr>
+        <tr>
+          <th>Name:</th>
+          <td><%= @employee.name %></td>
+        </tr>
+        <tr>
+          <th>position:</th>
+          <td><%= @employee.position %></td>
+        </tr>
+        <tr>
+          <th>Employee Number:</th>
+          <td><%= @employee.employee_num %></td>
+        </tr>
+        <tr>
+          <th>Employee Private Number:</th>
+          <td><%= @employee.employee_private_num %></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
