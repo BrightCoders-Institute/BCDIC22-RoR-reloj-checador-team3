@@ -5,3 +5,5 @@ debug.log
 
 # ignore file named database.yml
 /config/database.yml
+
+coautores.txt
