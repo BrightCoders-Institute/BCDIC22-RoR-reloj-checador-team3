@@ -16,3 +16,356 @@ Migrating to CreateEmployees (20230119032548)
   [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
   [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(3023990675252534715)[0m
   [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2023-01-19 15:45:03 -0600
+  
+ActiveRecord::DatabaseConnectionError (There is an issue connecting to your database with your username/password, username: postgres.
+
+Please check your database configuration to ensure the username/password are valid.
+):
+  
+activerecord (7.0.4) lib/active_record/connection_adapters/postgresql_adapter.rb:83:in `rescue in new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.4) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.5) lib/rack/method_override.rb:24:in `call'
+rack (2.2.5) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.5) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2023-01-19 15:45:57 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mCACHE ActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 2 pending migrations:
+
+20230119032548_create_employees.rb
+20230119214403_create_stores.rb
+
+
+):
+  
+activerecord (7.0.4) lib/active_record/migration.rb:627:in `check_pending!'
+activerecord (7.0.4) lib/active_record/migration.rb:592:in `block (2 levels) in call'
+activesupport (7.0.4) lib/active_support/file_update_checker.rb:83:in `execute'
+activerecord (7.0.4) lib/active_record/migration.rb:597:in `block in call'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.5) lib/rack/method_override.rb:24:in `call'
+rack (2.2.5) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.5) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/rails/actions" for 127.0.0.1 at 2023-01-19 15:46:02 -0600
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5164045553468828040)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateEmployees (20230119032548)
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (37.6ms)[0m  [1m[35mCREATE TABLE "employees" ("id" bigserial primary key, "email" character varying, "name" character varying, "position" character varying, "employee_num" character varying, "employee_private_num" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230119032548"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateStores (20230119214403)
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (5.7ms)[0m  [1m[35mCREATE TABLE "stores" ("id" bigserial primary key, "name" character varying, "address" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230119214403"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(5164045553468828040)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2023-01-19 15:46:02 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EmployeesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (1.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/views/employees/index.html.erb:6
+  Rendered employees/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1239)
+  Rendered layout layouts/application.html.erb (Duration: 585.5ms | Allocations: 92979)
+Completed 200 OK in 641ms (Views: 587.5ms | ActiveRecord: 1.0ms | Allocations: 96136)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5164045553468828040)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(5164045553468828040)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2023-01-19 15:51:43 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StoresController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering stores/index.html.erb within layouts/application
+  [1m[36mStore Load (1.1ms)[0m  [1m[34mSELECT "stores".* FROM "stores"[0m
+  ↳ app/views/stores/index.html.erb:6
+  Rendered stores/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1481)
+  Rendered layout layouts/application.html.erb (Duration: 307.2ms | Allocations: 37602)
+Completed 200 OK in 336ms (Views: 311.8ms | ActiveRecord: 1.1ms | Allocations: 41296)
+
+
+Started GET "/stores/new" for 127.0.0.1 at 2023-01-19 15:51:46 -0600
+Processing by StoresController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering stores/new.html.erb within layouts/application
+  Rendered stores/new.html.erb within layouts/application (Duration: 106.1ms | Allocations: 4305)
+  Rendered layout layouts/application.html.erb (Duration: 115.8ms | Allocations: 6632)
+Completed 200 OK in 119ms (Views: 116.8ms | ActiveRecord: 0.0ms | Allocations: 7052)
+
+
+Started POST "/stores" for 127.0.0.1 at 2023-01-19 15:51:56 -0600
+Processing by StoresController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "store"=>{"name"=>"t1", "address"=>"tienda 1"}, "commit"=>"Save Store"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/stores_controller.rb:26:in `create'
+  [1m[36mStore Create (0.9ms)[0m  [1m[32mINSERT INTO "stores" ("name", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "t1"], ["address", "tienda 1"], ["created_at", "2023-01-19 21:51:56.682179"], ["updated_at", "2023-01-19 21:51:56.682179"]]
+  ↳ app/controllers/stores_controller.rb:26:in `create'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/stores_controller.rb:26:in `create'
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 29ms (ActiveRecord: 9.3ms | Allocations: 7719)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 15:51:56 -0600
+Processing by StoresController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering stores/index.html.erb within layouts/application
+  [1m[36mStore Load (0.3ms)[0m  [1m[34mSELECT "stores".* FROM "stores"[0m
+  ↳ app/views/stores/index.html.erb:6
+  Rendered stores/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1252)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 3553)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.3ms | Allocations: 3923)
+
+
+Started GET "/stores/1" for 127.0.0.1 at 2023-01-19 15:51:58 -0600
+Processing by StoresController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mStore Load (0.4ms)[0m  [1m[34mSELECT "stores".* FROM "stores" WHERE "stores"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/stores_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering stores/show.html.erb within layouts/application
+  Rendered stores/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 177)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 2736)
+Completed 200 OK in 22ms (Views: 14.0ms | ActiveRecord: 0.7ms | Allocations: 5441)
+
+
+Started GET "/stores/1/edit" for 127.0.0.1 at 2023-01-19 15:52:06 -0600
+Processing by StoresController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mStore Load (0.4ms)[0m  [1m[34mSELECT "stores".* FROM "stores" WHERE "stores"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/stores_controller.rb:14:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering stores/edit.html.erb within layouts/application
+  Rendered stores/edit.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1605)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 3790)
+Completed 200 OK in 20ms (Views: 15.7ms | ActiveRecord: 0.4ms | Allocations: 4621)
+
+
+Started PATCH "/stores/1" for 127.0.0.1 at 2023-01-19 15:52:14 -0600
+Processing by StoresController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "store"=>{"name"=>"tp1", "address"=>"tienda prueba 1"}, "commit"=>"Update Store", "id"=>"1"}
+  [1m[36mStore Load (0.4ms)[0m  [1m[34mSELECT "stores".* FROM "stores" WHERE "stores"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/stores_controller.rb:18:in `update'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/stores_controller.rb:19:in `update'
+  [1m[36mStore Update (0.4ms)[0m  [1m[33mUPDATE "stores" SET "name" = $1, "address" = $2, "updated_at" = $3 WHERE "stores"."id" = $4[0m  [["name", "tp1"], ["address", "tienda prueba 1"], ["updated_at", "2023-01-19 21:52:14.788618"], ["id", 1]]
+  ↳ app/controllers/stores_controller.rb:19:in `update'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/stores_controller.rb:19:in `update'
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 19ms (ActiveRecord: 1.5ms | Allocations: 2924)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 15:52:14 -0600
+Processing by StoresController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering stores/index.html.erb within layouts/application
+  [1m[36mStore Load (0.4ms)[0m  [1m[34mSELECT "stores".* FROM "stores"[0m
+  ↳ app/views/stores/index.html.erb:6
+  Rendered stores/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1050)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 3242)
+Completed 200 OK in 17ms (Views: 14.4ms | ActiveRecord: 0.4ms | Allocations: 3516)
+
+
+Started DELETE "/stores/1" for 127.0.0.1 at 2023-01-19 15:52:19 -0600
+Processing by StoresController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"1"}
+  [1m[36mStore Load (0.4ms)[0m  [1m[34mSELECT "stores".* FROM "stores" WHERE "stores"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/stores_controller.rb:32:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/stores_controller.rb:33:in `destroy'
+  [1m[36mStore Destroy (0.4ms)[0m  [1m[31mDELETE FROM "stores" WHERE "stores"."id" = $1[0m  [["id", 1]]
+  ↳ app/controllers/stores_controller.rb:33:in `destroy'
+  [1m[36mTRANSACTION (11.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/stores_controller.rb:33:in `destroy'
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 27ms (ActiveRecord: 11.9ms | Allocations: 2400)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 15:52:19 -0600
+Processing by StoresController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering stores/index.html.erb within layouts/application
+  [1m[36mStore Load (0.4ms)[0m  [1m[34mSELECT "stores".* FROM "stores"[0m
+  ↳ app/views/stores/index.html.erb:6
+  Rendered stores/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 597)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 2962)
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 0.4ms | Allocations: 3235)
+
+
+Started GET "/stores/new" for 127.0.0.1 at 2023-01-19 16:03:33 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StoresController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering stores/new.html.erb within layouts/application
+  Rendered stores/new.html.erb within layouts/application (Duration: 15.3ms | Allocations: 3092)
+  Rendered layout layouts/application.html.erb (Duration: 143.8ms | Allocations: 38830)
+Completed 200 OK in 160ms (Views: 149.2ms | ActiveRecord: 0.0ms | Allocations: 41831)
+
+
+Started GET "/stores/new" for 127.0.0.1 at 2023-01-19 16:04:31 -0600
+Processing by StoresController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering stores/new.html.erb within layouts/application
+  Rendered stores/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1230)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 3790)
+Completed 200 OK in 22ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 4645)
+
+
+Started POST "/stores" for 127.0.0.1 at 2023-01-19 16:04:51 -0600
+Processing by StoresController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "store"=>{"name"=>"tienda 1", "address"=>"prueba 1"}, "commit"=>"Save Store"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/stores_controller.rb:26:in `create'
+  [1m[36mStore Create (1.2ms)[0m  [1m[32mINSERT INTO "stores" ("name", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "tienda 1"], ["address", "prueba 1"], ["created_at", "2023-01-19 22:04:51.866633"], ["updated_at", "2023-01-19 22:04:51.866633"]]
+  ↳ app/controllers/stores_controller.rb:26:in `create'
+  [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/stores_controller.rb:26:in `create'
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 33ms (ActiveRecord: 10.0ms | Allocations: 8311)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 16:04:51 -0600
+Processing by StoresController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering stores/index.html.erb within layouts/application
+  [1m[36mStore Load (0.8ms)[0m  [1m[34mSELECT "stores".* FROM "stores"[0m
+  ↳ app/views/stores/index.html.erb:6
+  Rendered stores/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1678)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 3979)
+Completed 200 OK in 21ms (Views: 17.5ms | ActiveRecord: 0.8ms | Allocations: 4473)
+
+
+Started GET "/stores/new" for 127.0.0.1 at 2023-01-19 16:05:02 -0600
+Processing by StoresController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering stores/new.html.erb within layouts/application
+  Rendered stores/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 851)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 3044)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 3303)
+
+
+Started POST "/stores" for 127.0.0.1 at 2023-01-19 16:05:09 -0600
+Processing by StoresController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "store"=>{"name"=>"tienda 2", "address"=>"prueba 2"}, "commit"=>"Save Store"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/stores_controller.rb:26:in `create'
+  [1m[36mStore Create (0.4ms)[0m  [1m[32mINSERT INTO "stores" ("name", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "tienda 2"], ["address", "prueba 2"], ["created_at", "2023-01-19 22:05:09.546131"], ["updated_at", "2023-01-19 22:05:09.546131"]]
+  ↳ app/controllers/stores_controller.rb:26:in `create'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/stores_controller.rb:26:in `create'
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 11ms (ActiveRecord: 1.3ms | Allocations: 2198)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 16:05:09 -0600
+Processing by StoresController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering stores/index.html.erb within layouts/application
+  [1m[36mStore Load (0.3ms)[0m  [1m[34mSELECT "stores".* FROM "stores"[0m
+  ↳ app/views/stores/index.html.erb:6
+  Rendered stores/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1360)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 3553)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.3ms | Allocations: 3827)
+
+
