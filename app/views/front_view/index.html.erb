@@ -1,0 +1,35 @@
+<div>
+  <header class="checkin_header">
+
+  <nav>   <h1> Empresa test </h1> <button> Admin </button>  </nav> 
+  </header>
+
+  <div id="title"> <h1>Check-in</h1> </div>
+
+  <div id='digital-clock'>
+    <span id='hour'></span
+    <span class='red-dot'> :</span>
+    <span id='min'></span>
+    <span class='red-dot'>:</span>
+    <span id='second'></span>
+  </div>
+
+  <p><div id="current_date"> </div></p>
+  <script>
+    date = new Date();
+    year = date.getFullYear();
+    month = date.getMonth() + 1;
+    day = date.getDate();
+    document.getElementById("current_date").innerHTML = day + "/" + month + "/" + year;
+  </script>
+
+  <form id="form_style"> 
+    <label for="employee_num">Numero de trabajador:</label> 
+    <input type="text" id="employee_num" name="employee_num"> <br> <br>
+
+    <label for="employee_private_num">Numero de trabajador secreto:</label> 
+    <input type="text" id="employee_private_num" name="employee_private_num"><br><br>
+
+    <button>Check-in</button>
+  </form>
+</div>

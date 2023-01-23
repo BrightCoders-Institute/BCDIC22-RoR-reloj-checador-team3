@@ -369,3 +369,1892 @@ Processing by StoresController#index as TURBO_STREAM
 Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.3ms | Allocations: 3827)
 
 
+Started GET "/" for 127.0.0.1 at 2023-01-20 17:21:32 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (uninitialized constant FrontViewController
+
+      Object.const_get(camel_cased_word)
+            ^^^^^^^^^^
+
+            raise MissingController.new(error.message, error.name)
+            ^^^^^):
+  
+Started GET "/" for 127.0.0.1 at 2023-01-20 17:24:01 -0600
+  
+SyntaxError (/mnt/c/Users/alber/OneDrive/Documents/bc2/BCDIC22-RoR-reloj-checador-team3/app/controllers/front_view_controller.rb:1: class/module name must be CONSTANT
+class front_view_Controller < ApplicationController
+      ^~~~~~~~~~~~~~~~~~~~~
+):
+  
+app/controllers/front_view_controller.rb:1: class/module name must be CONSTANT
+app/controllers/front_view_controller.rb:1: class/module name must be CONSTANT
+app/controllers/front_view_controller.rb:1: class/module name must be CONSTANT
+Started GET "/" for 127.0.0.1 at 2023-01-20 17:28:03 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 284)
+  Rendered layout layouts/application.html.erb (Duration: 146.4ms | Allocations: 36322)
+Completed 200 OK in 165ms (Views: 153.2ms | ActiveRecord: 0.0ms | Allocations: 39348)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 17:29:42 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 111)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 2917)
+Completed 200 OK in 21ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 3773)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 17:37:53 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 151.6ms | Allocations: 5418)
+Completed 200 OK in 159ms (Views: 155.4ms | Allocations: 6231)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 17:39:17 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 115)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 2923)
+Completed 200 OK in 21ms (Views: 18.3ms | Allocations: 3729)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 17:39:38 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 114)
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 2937)
+Completed 200 OK in 22ms (Views: 19.2ms | Allocations: 3743)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 17:45:22 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 139)
+  Rendered layout layouts/application.html.erb (Duration: 124.7ms | Allocations: 17373)
+Completed 200 OK in 131ms (Views: 128.3ms | Allocations: 18179)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 17:47:13 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 139)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 2953)
+Completed 200 OK in 22ms (Views: 18.7ms | Allocations: 3759)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 17:47:17 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 2368)
+Completed 200 OK in 18ms (Views: 15.8ms | Allocations: 2640)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 17:48:28 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 139)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 2966)
+Completed 200 OK in 27ms (Views: 23.5ms | Allocations: 3761)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 17:48:30 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 2362)
+Completed 200 OK in 18ms (Views: 16.1ms | Allocations: 2633)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 17:48:46 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 139)
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 2947)
+Completed 200 OK in 26ms (Views: 22.9ms | Allocations: 3735)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 17:50:04 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 266)
+  Rendered layout layouts/application.html.erb (Duration: 84.3ms | Allocations: 16158)
+Completed 200 OK in 91ms (Views: 87.9ms | Allocations: 16974)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 17:50:13 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 2371)
+Completed 200 OK in 18ms (Views: 16.1ms | Allocations: 2643)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 17:50:14 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 2366)
+Completed 200 OK in 16ms (Views: 13.7ms | Allocations: 2619)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 17:58:22 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 141)
+  Rendered layout layouts/application.html.erb (Duration: 54.0ms | Allocations: 14750)
+Completed 200 OK in 60ms (Views: 57.2ms | Allocations: 15541)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 17:58:24 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 2371)
+Completed 200 OK in 14ms (Views: 12.1ms | Allocations: 2642)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 17:58:25 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 2365)
+Completed 200 OK in 23ms (Views: 20.8ms | Allocations: 2618)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 18:05:47 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 140)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 2954)
+Completed 200 OK in 24ms (Views: 20.7ms | Allocations: 3742)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 18:05:50 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 2371)
+Completed 200 OK in 25ms (Views: 22.8ms | Allocations: 2642)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 18:05:51 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 2368)
+Completed 200 OK in 21ms (Views: 19.1ms | Allocations: 2621)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 18:06:10 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 139)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 2983)
+Completed 200 OK in 20ms (Views: 17.4ms | Allocations: 3771)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 18:06:27 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 139)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 2959)
+Completed 200 OK in 20ms (Views: 16.9ms | Allocations: 3765)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 18:06:30 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 2368)
+Completed 200 OK in 20ms (Views: 17.8ms | Allocations: 2639)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 18:27:51 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 138)
+  Rendered layout layouts/application.html.erb (Duration: 83.2ms | Allocations: 15951)
+Completed 200 OK in 91ms (Views: 87.1ms | Allocations: 16739)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 18:28:22 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 141.2ms | Allocations: 15269)
+Completed 200 OK in 148ms (Views: 145.4ms | Allocations: 15541)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 18:28:57 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 49.2ms | Allocations: 14144)
+Completed 200 OK in 53ms (Views: 50.6ms | Allocations: 14399)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 18:28:58 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 2359)
+Completed 200 OK in 16ms (Views: 14.0ms | Allocations: 2612)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 18:28:59 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 2381)
+Completed 200 OK in 14ms (Views: 12.3ms | Allocations: 2634)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 18:29:00 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 2368)
+Completed 200 OK in 14ms (Views: 12.2ms | Allocations: 2621)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 18:29:12 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 78.8ms | Allocations: 15292)
+Completed 200 OK in 88ms (Views: 86.2ms | Allocations: 15545)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 18:35:24 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 119.9ms | Allocations: 17337)
+Completed 200 OK in 127ms (Views: 123.2ms | Allocations: 18127)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 18:35:57 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 319)
+  Rendered layout layouts/application.html.erb (Duration: 335.8ms | Allocations: 40975)
+Completed 200 OK in 353ms (Views: 341.5ms | ActiveRecord: 0.0ms | Allocations: 44001)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 18:39:39 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 148)
+  Rendered layout layouts/application.html.erb (Duration: 84.8ms | Allocations: 15940)
+Completed 200 OK in 92ms (Views: 88.2ms | ActiveRecord: 0.0ms | Allocations: 16796)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 18:40:38 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 46.0ms | Allocations: 3747)
+Completed 200 OK in 50ms (Views: 47.5ms | ActiveRecord: 0.0ms | Allocations: 4029)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:18:30 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 18.9ms | Allocations: 323)
+  Rendered layout layouts/application.html.erb (Duration: 489.7ms | Allocations: 41294)
+Completed 200 OK in 614ms (Views: 529.1ms | ActiveRecord: 0.0ms | Allocations: 44319)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:20:00 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 2958)
+Completed 200 OK in 20ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 3814)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:20:47 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 2983)
+Completed 200 OK in 19ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 3806)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:21:09 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 2359)
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 2635)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:22:16 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 58.4ms | Allocations: 4411)
+Completed 200 OK in 65ms (Views: 61.8ms | ActiveRecord: 0.0ms | Allocations: 5208)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:22:32 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 51.7ms | Allocations: 3711)
+Completed 200 OK in 55ms (Views: 52.9ms | ActiveRecord: 0.0ms | Allocations: 3992)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:23:13 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 54.1ms | Allocations: 3726)
+Completed 200 OK in 57ms (Views: 55.4ms | ActiveRecord: 0.0ms | Allocations: 3982)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:23:28 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 45.7ms | Allocations: 3728)
+Completed 200 OK in 48ms (Views: 46.7ms | ActiveRecord: 0.0ms | Allocations: 3984)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:24:12 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 42.9ms | Allocations: 3711)
+Completed 200 OK in 46ms (Views: 44.0ms | ActiveRecord: 0.0ms | Allocations: 3971)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:24:37 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 45.4ms | Allocations: 3726)
+Completed 200 OK in 48ms (Views: 46.4ms | Allocations: 3979)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:25:44 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 44.7ms | Allocations: 3711)
+Completed 200 OK in 48ms (Views: 45.9ms | Allocations: 3964)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:26:05 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 55.7ms | Allocations: 3704)
+Completed 200 OK in 68ms (Views: 66.4ms | Allocations: 3957)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:26:17 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 42.4ms | Allocations: 3741)
+Completed 200 OK in 46ms (Views: 43.6ms | Allocations: 3995)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:26:40 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 52.8ms | Allocations: 3710)
+Completed 200 OK in 55ms (Views: 53.8ms | Allocations: 3963)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:27:50 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 155)
+  Rendered layout layouts/application.html.erb (Duration: 56.6ms | Allocations: 4423)
+Completed 200 OK in 62ms (Views: 59.4ms | Allocations: 5212)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:29:21 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 50.9ms | Allocations: 3698)
+Completed 200 OK in 54ms (Views: 52.3ms | Allocations: 3969)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:30:22 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 20.2ms | Allocations: 2972)
+Completed 200 OK in 26ms (Views: 23.1ms | Allocations: 3762)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:30:44 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 2958)
+Completed 200 OK in 22ms (Views: 19.3ms | Allocations: 3764)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:34:57 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 52.6ms | Allocations: 3812)
+Completed 200 OK in 56ms (Views: 53.8ms | Allocations: 4083)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:35:11 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 52.9ms | Allocations: 3700)
+Completed 200 OK in 56ms (Views: 54.2ms | Allocations: 3953)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:36:06 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 2969)
+Completed 200 OK in 20ms (Views: 17.2ms | Allocations: 3757)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:36:10 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 2359)
+Completed 200 OK in 15ms (Views: 12.8ms | Allocations: 2630)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:36:42 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 147)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 2973)
+Completed 200 OK in 20ms (Views: 17.4ms | Allocations: 3761)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:39:01 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 148)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 2959)
+Completed 200 OK in 17ms (Views: 14.5ms | Allocations: 3765)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:39:53 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 148)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 2962)
+Completed 200 OK in 27ms (Views: 24.3ms | Allocations: 3769)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:39:57 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 2375)
+Completed 200 OK in 18ms (Views: 15.6ms | Allocations: 2648)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:39:58 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 2375)
+Completed 200 OK in 14ms (Views: 11.9ms | Allocations: 2629)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:40:33 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 151)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 2977)
+Completed 200 OK in 17ms (Views: 14.6ms | Allocations: 3765)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:42:22 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 2957)
+Completed 200 OK in 18ms (Views: 15.5ms | Allocations: 3763)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:44:46 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 41.1ms | Allocations: 3824)
+Completed 200 OK in 44ms (Views: 42.4ms | Allocations: 4095)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:45:37 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 41.5ms | Allocations: 3730)
+Completed 200 OK in 44ms (Views: 42.7ms | Allocations: 3983)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:45:53 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 53.9ms | Allocations: 3707)
+Completed 200 OK in 57ms (Views: 55.0ms | Allocations: 3960)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:46:28 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 58.9ms | Allocations: 3731)
+Completed 200 OK in 62ms (Views: 60.0ms | Allocations: 3984)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:46:40 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 49.6ms | Allocations: 3705)
+Completed 200 OK in 53ms (Views: 50.8ms | Allocations: 3958)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:47:15 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 45.5ms | Allocations: 3716)
+Completed 200 OK in 49ms (Views: 46.3ms | Allocations: 3969)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:48:33 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 2969)
+Completed 200 OK in 23ms (Views: 20.6ms | Allocations: 3757)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:50:51 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 148)
+  Rendered layout layouts/application.html.erb (Duration: 51.8ms | Allocations: 4423)
+Completed 200 OK in 58ms (Views: 54.9ms | Allocations: 5229)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:50:58 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 58.8ms | Allocations: 3722)
+Completed 200 OK in 62ms (Views: 60.1ms | Allocations: 3993)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:51:30 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 50.6ms | Allocations: 3727)
+Completed 200 OK in 53ms (Views: 51.5ms | Allocations: 3980)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:51:47 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 55.1ms | Allocations: 3740)
+Completed 200 OK in 58ms (Views: 56.4ms | Allocations: 3993)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:52:12 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 51.5ms | Allocations: 3737)
+Completed 200 OK in 56ms (Views: 54.0ms | Allocations: 3990)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:53:48 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 2386)
+Completed 200 OK in 25ms (Views: 23.5ms | Allocations: 2641)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:54:11 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 53.5ms | Allocations: 3740)
+Completed 200 OK in 56ms (Views: 54.5ms | Allocations: 3993)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:54:53 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 44.5ms | Allocations: 3734)
+Completed 200 OK in 48ms (Views: 45.6ms | Allocations: 3987)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:55:08 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 60.1ms | Allocations: 3729)
+Completed 200 OK in 64ms (Views: 61.5ms | Allocations: 3983)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:55:42 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 2977)
+Completed 200 OK in 18ms (Views: 15.6ms | Allocations: 3765)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:56:17 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 53.4ms | Allocations: 3823)
+Completed 200 OK in 56ms (Views: 54.4ms | Allocations: 4094)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 15:56:35 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 50.8ms | Allocations: 3702)
+Completed 200 OK in 54ms (Views: 51.8ms | Allocations: 3955)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:00:48 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 155)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 2963)
+Completed 200 OK in 19ms (Views: 16.0ms | Allocations: 3751)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:01:44 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 155)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 2957)
+Completed 200 OK in 20ms (Views: 17.3ms | Allocations: 3763)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:02:58 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 155)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 2972)
+Completed 200 OK in 19ms (Views: 16.7ms | Allocations: 3778)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:03:25 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 155)
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 2969)
+Completed 200 OK in 26ms (Views: 23.7ms | Allocations: 3775)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:03:36 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 2374)
+Completed 200 OK in 13ms (Views: 11.3ms | Allocations: 2645)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:03:40 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 155)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 2963)
+Completed 200 OK in 18ms (Views: 15.3ms | Allocations: 3751)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:03:56 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 155)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 2978)
+Completed 200 OK in 17ms (Views: 14.9ms | Allocations: 3784)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:04:56 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 155)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 2960)
+Completed 200 OK in 21ms (Views: 18.2ms | Allocations: 3766)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:06:32 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 48.9ms | Allocations: 4449)
+Completed 200 OK in 55ms (Views: 51.9ms | Allocations: 5255)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:07:07 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 51.4ms | Allocations: 3722)
+Completed 200 OK in 55ms (Views: 52.9ms | Allocations: 3993)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:07:54 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 158)
+  Rendered layout layouts/application.html.erb (Duration: 54.6ms | Allocations: 4454)
+Completed 200 OK in 60ms (Views: 57.5ms | Allocations: 5244)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:08:19 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 50.3ms | Allocations: 3743)
+Completed 200 OK in 53ms (Views: 51.3ms | Allocations: 4015)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:08:57 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 42.5ms | Allocations: 3736)
+Completed 200 OK in 46ms (Views: 43.6ms | Allocations: 3989)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:12:17 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 55.9ms | Allocations: 3748)
+Completed 200 OK in 59ms (Views: 57.1ms | Allocations: 4002)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:12:52 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 156)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 2965)
+Completed 200 OK in 20ms (Views: 17.5ms | Allocations: 3753)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:13:29 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 157)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 2976)
+Completed 200 OK in 18ms (Views: 14.9ms | Allocations: 3783)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:13:39 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 157)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 2968)
+Completed 200 OK in 20ms (Views: 17.8ms | Allocations: 3774)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:15:11 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 50.9ms | Allocations: 3841)
+Completed 200 OK in 54ms (Views: 51.9ms | Allocations: 4112)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:18:56 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 43.8ms | Allocations: 3737)
+Completed 200 OK in 47ms (Views: 45.7ms | Allocations: 3990)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:20:22 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 44.0ms | Allocations: 3755)
+Completed 200 OK in 47ms (Views: 45.5ms | Allocations: 4008)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:21:23 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 157)
+  Rendered layout layouts/application.html.erb (Duration: 53.8ms | Allocations: 4437)
+Completed 200 OK in 60ms (Views: 57.5ms | Allocations: 5225)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:21:38 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 42.1ms | Allocations: 3737)
+Completed 200 OK in 45ms (Views: 43.4ms | Allocations: 4008)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:21:55 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 156)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 2967)
+Completed 200 OK in 23ms (Views: 19.6ms | Allocations: 3755)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:22:32 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 53.8ms | Allocations: 3848)
+Completed 200 OK in 57ms (Views: 54.8ms | Allocations: 4119)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:23:41 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 53.4ms | Allocations: 3755)
+Completed 200 OK in 56ms (Views: 54.5ms | Allocations: 4008)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:23:43 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 2374)
+Completed 200 OK in 13ms (Views: 11.3ms | Allocations: 2627)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:24:21 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 157)
+  Rendered layout layouts/application.html.erb (Duration: 54.4ms | Allocations: 4444)
+Completed 200 OK in 60ms (Views: 57.2ms | Allocations: 5233)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:24:39 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 38.3ms | Allocations: 3763)
+Completed 200 OK in 42ms (Views: 39.6ms | Allocations: 4035)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:25:00 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 51.1ms | Allocations: 3741)
+Completed 200 OK in 54ms (Views: 52.2ms | Allocations: 3995)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:25:27 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 50.7ms | Allocations: 3741)
+Completed 200 OK in 54ms (Views: 52.1ms | Allocations: 3994)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:26:12 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 62.7ms | Allocations: 3759)
+Completed 200 OK in 66ms (Views: 63.9ms | Allocations: 4012)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:27:10 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 53.0ms | Allocations: 3739)
+Completed 200 OK in 56ms (Views: 54.1ms | Allocations: 3992)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:30:42 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 163)
+  Rendered layout layouts/application.html.erb (Duration: 57.9ms | Allocations: 4446)
+Completed 200 OK in 64ms (Views: 61.3ms | Allocations: 5234)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:31:56 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 158)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 2978)
+Completed 200 OK in 22ms (Views: 19.9ms | Allocations: 3784)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:32:42 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 40.6ms | Allocations: 3839)
+Completed 200 OK in 44ms (Views: 41.9ms | Allocations: 4110)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:34:39 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 157)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 2987)
+Completed 200 OK in 22ms (Views: 19.5ms | Allocations: 3775)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:35:23 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 158)
+  Rendered layout layouts/application.html.erb (Duration: 20.2ms | Allocations: 3049)
+Completed 200 OK in 25ms (Views: 22.8ms | Allocations: 3855)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:36:28 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 52.0ms | Allocations: 3817)
+Completed 200 OK in 55ms (Views: 53.0ms | Allocations: 4088)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:36:47 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 55.0ms | Allocations: 3756)
+Completed 200 OK in 58ms (Views: 56.2ms | Allocations: 4009)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:37:15 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 53.3ms | Allocations: 3723)
+Completed 200 OK in 56ms (Views: 54.2ms | Allocations: 3976)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:37:29 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 51.3ms | Allocations: 3774)
+Completed 200 OK in 54ms (Views: 52.4ms | Allocations: 4029)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:38:16 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 51.2ms | Allocations: 3754)
+Completed 200 OK in 54ms (Views: 52.3ms | Allocations: 4008)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-23 16:38:28 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 56.2ms | Allocations: 3749)
+Completed 200 OK in 60ms (Views: 57.5ms | Allocations: 4003)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:38:37 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 2378)
+Completed 200 OK in 13ms (Views: 11.7ms | Allocations: 2633)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:38:38 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 2365)
+Completed 200 OK in 14ms (Views: 12.2ms | Allocations: 2621)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:38:39 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 2363)
+Completed 200 OK in 14ms (Views: 11.6ms | Allocations: 2618)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:38:40 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 2374)
+Completed 200 OK in 13ms (Views: 11.1ms | Allocations: 2629)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:38:41 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 2350)
+Completed 200 OK in 15ms (Views: 13.0ms | Allocations: 2605)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:38:42 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 2361)
+Completed 200 OK in 13ms (Views: 11.3ms | Allocations: 2616)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:38:42 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 2368)
+Completed 200 OK in 14ms (Views: 12.5ms | Allocations: 2624)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:38:43 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 2374)
+Completed 200 OK in 13ms (Views: 11.3ms | Allocations: 2629)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:38:43 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 2353)
+Completed 200 OK in 12ms (Views: 10.7ms | Allocations: 2608)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:38:44 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 2365)
+Completed 200 OK in 14ms (Views: 12.4ms | Allocations: 2620)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:38:46 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 2368)
+Completed 200 OK in 17ms (Views: 15.0ms | Allocations: 2623)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:38:49 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 2350)
+Completed 200 OK in 12ms (Views: 10.4ms | Allocations: 2605)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:38:51 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 2368)
+Completed 200 OK in 15ms (Views: 13.0ms | Allocations: 2623)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:38:52 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 2380)
+Completed 200 OK in 13ms (Views: 11.2ms | Allocations: 2635)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:38:53 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 2371)
+Completed 200 OK in 18ms (Views: 15.2ms | Allocations: 2626)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:38:54 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 2371)
+Completed 200 OK in 16ms (Views: 14.0ms | Allocations: 2626)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:39:24 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 52.9ms | Allocations: 3757)
+Completed 200 OK in 56ms (Views: 53.9ms | Allocations: 4010)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:39:35 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 49.5ms | Allocations: 3751)
+Completed 200 OK in 53ms (Views: 50.6ms | Allocations: 4004)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:39:48 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 52.3ms | Allocations: 3747)
+Completed 200 OK in 55ms (Views: 53.3ms | Allocations: 4000)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:40:30 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 50.5ms | Allocations: 3768)
+Completed 200 OK in 57ms (Views: 54.5ms | Allocations: 4021)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:40:58 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 51.0ms | Allocations: 3771)
+Completed 200 OK in 54ms (Views: 52.0ms | Allocations: 4026)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:41:47 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 52.3ms | Allocations: 3755)
+Completed 200 OK in 56ms (Views: 54.6ms | Allocations: 4009)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:42:26 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 52.6ms | Allocations: 3753)
+Completed 200 OK in 57ms (Views: 55.0ms | Allocations: 4007)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:42:43 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 52.4ms | Allocations: 3746)
+Completed 200 OK in 58ms (Views: 56.4ms | Allocations: 3999)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:42:59 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 50.9ms | Allocations: 3745)
+Completed 200 OK in 55ms (Views: 53.4ms | Allocations: 3998)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:43:05 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 55.8ms | Allocations: 3769)
+Completed 200 OK in 59ms (Views: 57.0ms | Allocations: 4022)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:43:51 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 56.3ms | Allocations: 3755)
+Completed 200 OK in 60ms (Views: 58.5ms | Allocations: 4008)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:44:10 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 50.9ms | Allocations: 3781)
+Completed 200 OK in 54ms (Views: 51.8ms | Allocations: 4034)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:44:32 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 45.7ms | Allocations: 3771)
+Completed 200 OK in 50ms (Views: 48.6ms | Allocations: 4024)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:44:42 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 43.2ms | Allocations: 3769)
+Completed 200 OK in 47ms (Views: 45.7ms | Allocations: 4022)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:45:34 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 50.1ms | Allocations: 3771)
+Completed 200 OK in 54ms (Views: 52.6ms | Allocations: 4024)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:46:11 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 52.9ms | Allocations: 3769)
+Completed 200 OK in 57ms (Views: 55.4ms | Allocations: 4022)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:47:03 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 52.6ms | Allocations: 3769)
+Completed 200 OK in 55ms (Views: 53.8ms | Allocations: 4022)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:47:15 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 50.3ms | Allocations: 3775)
+Completed 200 OK in 53ms (Views: 51.3ms | Allocations: 4028)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:47:44 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 54.4ms | Allocations: 3779)
+Completed 200 OK in 59ms (Views: 56.8ms | Allocations: 4033)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:48:12 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 2376)
+Completed 200 OK in 14ms (Views: 11.6ms | Allocations: 2633)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:48:13 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 2375)
+Completed 200 OK in 15ms (Views: 13.2ms | Allocations: 2631)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:48:17 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 2373)
+Completed 200 OK in 13ms (Views: 11.5ms | Allocations: 2630)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:48:20 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 2359)
+Completed 200 OK in 13ms (Views: 11.5ms | Allocations: 2614)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:48:21 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 2365)
+Completed 200 OK in 13ms (Views: 11.2ms | Allocations: 2620)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:48:22 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 2349)
+Completed 200 OK in 13ms (Views: 11.0ms | Allocations: 2605)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:50:33 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 47.6ms | Allocations: 3792)
+Completed 200 OK in 51ms (Views: 48.7ms | Allocations: 4045)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:51:55 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 54.4ms | Allocations: 3786)
+Completed 200 OK in 57ms (Views: 55.6ms | Allocations: 4039)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:52:49 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 163)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 2976)
+Completed 200 OK in 21ms (Views: 18.8ms | Allocations: 3765)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:57:02 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 167)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 2981)
+Completed 200 OK in 20ms (Views: 17.0ms | Allocations: 3787)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:57:42 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 167)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 2987)
+Completed 200 OK in 23ms (Views: 20.9ms | Allocations: 3793)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:59:13 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 55.0ms | Allocations: 3888)
+Completed 200 OK in 60ms (Views: 57.6ms | Allocations: 4159)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 16:59:30 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 54.6ms | Allocations: 3787)
+Completed 200 OK in 58ms (Views: 55.9ms | Allocations: 4040)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:00:55 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 53.4ms | Allocations: 3817)
+Completed 200 OK in 57ms (Views: 54.7ms | Allocations: 4070)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:01:31 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 168)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 3003)
+Completed 200 OK in 21ms (Views: 18.4ms | Allocations: 3791)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:01:51 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 2412)
+Completed 200 OK in 18ms (Views: 16.4ms | Allocations: 2683)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:02:05 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 54.0ms | Allocations: 3892)
+Completed 200 OK in 58ms (Views: 56.4ms | Allocations: 4145)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:02:33 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 53.5ms | Allocations: 3790)
+Completed 200 OK in 56ms (Views: 54.4ms | Allocations: 4043)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:02:35 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 2383)
+Completed 200 OK in 17ms (Views: 14.7ms | Allocations: 2638)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:03:28 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 172)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 2993)
+Completed 200 OK in 20ms (Views: 17.5ms | Allocations: 3783)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:04:26 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 54.1ms | Allocations: 3902)
+Completed 200 OK in 60ms (Views: 57.9ms | Allocations: 4174)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:04:43 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 40.9ms | Allocations: 3801)
+Completed 200 OK in 43ms (Views: 41.7ms | Allocations: 4055)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:05:07 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 52.1ms | Allocations: 3799)
+Completed 200 OK in 55ms (Views: 53.1ms | Allocations: 4052)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:06:12 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 51.8ms | Allocations: 3794)
+Completed 200 OK in 55ms (Views: 52.9ms | Allocations: 4047)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:08:42 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 59.2ms | Allocations: 4523)
+Completed 200 OK in 65ms (Views: 62.9ms | Allocations: 5311)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:09:02 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 3002)
+Completed 200 OK in 17ms (Views: 14.8ms | Allocations: 3808)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:09:36 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 166)
+  Rendered layout layouts/application.html.erb (Duration: 52.1ms | Allocations: 4522)
+Completed 200 OK in 57ms (Views: 54.9ms | Allocations: 5328)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:10:43 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 53.1ms | Allocations: 3804)
+Completed 200 OK in 57ms (Views: 55.6ms | Allocations: 4075)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:11:25 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 50.3ms | Allocations: 3779)
+Completed 200 OK in 53ms (Views: 51.3ms | Allocations: 4032)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:12:41 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 54.8ms | Allocations: 3830)
+Completed 200 OK in 61ms (Views: 58.4ms | Allocations: 4084)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:12:58 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 38.8ms | Allocations: 3797)
+Completed 200 OK in 43ms (Views: 41.2ms | Allocations: 4052)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:13:16 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 52.7ms | Allocations: 3802)
+Completed 200 OK in 57ms (Views: 55.4ms | Allocations: 4056)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:13:30 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 41.9ms | Allocations: 3797)
+Completed 200 OK in 46ms (Views: 44.5ms | Allocations: 4051)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:13:44 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 50.1ms | Allocations: 3812)
+Completed 200 OK in 53ms (Views: 51.2ms | Allocations: 4065)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:14:17 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 173)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 2995)
+Completed 200 OK in 21ms (Views: 18.1ms | Allocations: 3784)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:14:32 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 165)
+  Rendered layout layouts/application.html.erb (Duration: 43.6ms | Allocations: 2997)
+Completed 200 OK in 49ms (Views: 46.4ms | Allocations: 3803)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:15:04 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 167)
+  Rendered layout layouts/application.html.erb (Duration: 51.9ms | Allocations: 4530)
+Completed 200 OK in 57ms (Views: 54.8ms | Allocations: 5336)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:15:59 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 166)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 3054)
+Completed 200 OK in 23ms (Views: 20.3ms | Allocations: 3860)
+
+
+Started GET "/?employee_num=&employee_private_num=" for 127.0.0.1 at 2023-01-23 17:16:49 -0600
+Processing by FrontViewController#index as HTML
+  Parameters: {"employee_num"=>"", "employee_private_num"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 49.9ms | Allocations: 3890)
+Completed 200 OK in 52ms (Views: 50.8ms | Allocations: 4161)
+
+

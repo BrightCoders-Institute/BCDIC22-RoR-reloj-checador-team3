@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'front_view/index'
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
@@ -8,7 +9,7 @@ Rails.application.routes.draw do
   #root 'employees#index'
   resources :employees
   
-  root 'stores#index'
+  root 'front_view#index'
   resources :stores
 
 end

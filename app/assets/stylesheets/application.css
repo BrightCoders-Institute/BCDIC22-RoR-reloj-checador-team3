@@ -13,3 +13,107 @@
  *= require_tree .
  *= require_self
  */
+
+ .checkin_header{
+    background-color: #2c2b37;
+    
+  }
+
+  .checkin_header nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    width: 90%;
+  }
+
+  .checkin_header nav button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #244c94;
+    color: white;
+    border-style: hidden;
+    display: block;
+    width: 120px;
+    border-radius: 3px;
+  }
+
+  
+  .checkin_header nav button:hover {
+    background-color: #1cadfc;
+    color: black;
+  }
+
+  .checkin_header nav h1{
+    color: white;
+  }
+
+  #title h1{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 80px;
+    width: 100%;
+  } 
+
+  html {
+    height: 100%;
+  }
+  
+  #current_date {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    display: flex;   
+    justify-content: center; 
+    margin-bottom: 35px;
+  }
+
+  #digital-clock {
+    width: 100%;
+    text-align: center;
+    font-size: 120px;
+    color: black;
+    margin-bottom: 0%;
+    height: 140px;
+  }
+  .red-dot {
+    color: black
+  }
+
+  #form_style {
+    text-align: center;
+    display: flex;   
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+  }
+
+  form label {
+    font-size: 25px;
+  }
+
+  form input {
+    border-radius: 3px;
+    border-style: hidden;
+    width: 250px;
+  }
+
+  form button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #007bff;
+    color: white;
+    border-style: hidden;
+    display: block;
+    width: 120px;
+    border-radius: 3px;
+    
+  }
+
+  form button:hover {
+    background-color: #1cadfc;
+  }
