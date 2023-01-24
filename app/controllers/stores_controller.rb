@@ -18,20 +18,20 @@ class StoresController < ApplicationController
     store = Store.find(params[:id])
     store.update(store_params)
     
-    redirect_to root_path
+    redirect_to stores_path
   end
 
   def create
     store = Store.new(store_params)
     store.save
 
-    redirect_to root_path
+    redirect_to stores_path
   end
 
   def destroy
     store = Store.find(params[:id])
     store.destroy
-    redirect_to root_path
+    redirect_to stores_path
   end
   
   private

@@ -18,19 +18,19 @@ class EmployeesController < ApplicationController
     employee = Employee.find(params[:id])
     employee.update(employee_params)
     
-    redirect_to root_path
+    redirect_to employees_path
   end
 
   def create
     employee = Employee.new(employee_params)
     employee.save
-    redirect_to root_path
+    redirect_to employees_path
   end
 
   def destroy
     employee = Employee.find(params[:id])
     employee.destroy
-    redirect_to root_path
+    redirect_to employees_path
   end
 
   private
