@@ -113,10 +113,10 @@ input[type="submit" i] {
 }
 .login_title {
   align-items: center;
-  justify-content: center;
-  text-align: center;
   font-size: 50px;
   font-weight: bold;
+  justify-content: center;
   margin-bottom: 50px;
   margin-top: 50px;
+  text-align: center;
 }
