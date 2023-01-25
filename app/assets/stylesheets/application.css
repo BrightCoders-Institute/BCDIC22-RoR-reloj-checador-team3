@@ -101,3 +101,22 @@ form button {
 form button:hover {
   background-color: #1cadfc;
   }
+input[type="submit" i] {
+  background-color: #007bff;
+  border-radius: 3px;
+  border-style: hidden;
+  color: white;
+  display: block;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  width: 120px;
+}
+.login_title {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
