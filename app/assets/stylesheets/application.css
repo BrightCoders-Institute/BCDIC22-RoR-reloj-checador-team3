@@ -86,6 +86,7 @@ form label {
 form input {
   border-radius: 3px;
   border-style: hidden;
+  margin-bottom: 30px;
   width: 250px;
   }
 form button {
@@ -119,4 +120,4 @@ input[type="submit" i] {
   margin-bottom: 50px;
   margin-top: 50px;
   text-align: center;
-  }   
+  }
