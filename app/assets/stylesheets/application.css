@@ -110,7 +110,7 @@ input[type="submit" i] {
   padding-bottom: 5px;
   padding-top: 5px;
   width: 120px;
-}
+  } 
 .login_title {
   align-items: center;
   font-size: 50px;
@@ -119,4 +119,4 @@ input[type="submit" i] {
   margin-bottom: 50px;
   margin-top: 50px;
   text-align: center;
-}
+  }   
