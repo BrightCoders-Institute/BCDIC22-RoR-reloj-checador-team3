@@ -13,6 +13,6 @@ Rails.application.routes.draw do
 
   resources :stores
 
-  root 'admin#admin_menu'
+  root 'front_view#index'
 
 end
