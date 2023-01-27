@@ -1,19 +1,16 @@
-<h1>Admin Menu</h1>
+<div id="title" class="mt-3"> <h1>Admin Menu</h1> </div>
 
-<div class="d-md-flex justify-content-between align-items-center mx-5 mx-md-0">
-    <div class="col-md-3 border p-4">
+<div class="d-md-flex justify-content-between align-items-center mx-5 mx-md-10 mt-5 px-5">
+    <div id="menu" class="col-md-3 p-5">
         <%= link_to image_tag("empleados.png", alt: "employee image", class: 'img-fluid'), employees_path %>
-        <p class="row justify-content-center h1">Employees</p>
+        <p class="row justify-content-center h1 p-3">Employees</p>
     </div>
-    <div class="col-md-3 border p-4">
+    <div class="col-md-3 p-5">
         <%= link_to image_tag("tienda.png", alt: "store image", class: 'img-fluid'), stores_path %>
-        <p class="row justify-content-center h1">Stores</p>
+        <p class="row justify-content-center h1 p-3">Stores</p>
     </div>
-    <div class="col-md-3 border p-4">
+    <div class="col-md-3 p-5">
         <%= link_to image_tag("reporte.png", alt: "report image", class: 'img-fluid') %>
-        <p class="row justify-content-center h1">Reports</p>
+        <p class="row justify-content-center h1 p-3">Reports</p>
     </div>
-    
-    
 </div>
-
