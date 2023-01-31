@@ -4,3 +4,4 @@ class AddColumns < ActiveRecord::Migration[7.0]
     add_column :employees, :employee_private_num, :integer
   end
 end
+

@@ -24,5 +24,7 @@ class FrontViewController < ApplicationController
 
   def check_params
     params.permit(:check)
+
   end
 end
+

@@ -5220,3 +5220,47 @@ FOREIGN KEY ("front_views_id")
   [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(3023990675252534715)[0m
   [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2023-01-30 18:04:14 -0600
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:8:in `<class:User>'
+  [1m[36mUser Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:8:in `<class:User>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/models/user.rb:8:in `<class:User>'
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 21.4ms | Allocations: 2959)
+  Rendered layout layouts/application.html.erb (Duration: 409.8ms | Allocations: 17070)
+Completed 200 OK in 439ms (Views: 419.1ms | ActiveRecord: 0.0ms | Allocations: 17692)
+
+
+Started POST "/front_view" for 127.0.0.1 at 2023-01-30 18:05:41 -0600
+Processing by FrontViewController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "employee_num"=>"101", "employee_private_num"=>"1001", "check"=>"in"}
+[31mUnpermitted parameters: :authenticity_token, :check. Context: { controller: FrontViewController, action: create, request: #<ActionDispatch::Request:0x00007fb543777c20>, params: {"authenticity_token"=>"[FILTERED]", "employee_num"=>"101", "employee_private_num"=>"1001", "check"=>"in", "controller"=>"front_view", "action"=>"create"} }[0m
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees" WHERE "employees"."employee_num" = $1 AND "employees"."employee_private_num" = $2 LIMIT $3[0m  [["employee_num", 101], ["employee_private_num", 1001], ["LIMIT", 1]]
+  ↳ app/controllers/front_view_controller.rb:7:in `create'
+[31mUnpermitted parameters: :authenticity_token, :employee_num, :employee_private_num. Context: { controller: FrontViewController, action: create, request: #<ActionDispatch::Request:0x00007fb543777c20>, params: {"authenticity_token"=>"[FILTERED]", "employee_num"=>"101", "employee_private_num"=>"1001", "check"=>"in", "controller"=>"front_view", "action"=>"create"} }[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/front_view_controller.rb:10:in `create'
+  [1m[36mEmployee Load (0.7ms)[0m  [1m[34mSELECT "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/front_view_controller.rb:10:in `create'
+  [1m[36mFrontView Create (1.2ms)[0m  [1m[32mINSERT INTO "front_views" ("check", "employee_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["check", "in"], ["employee_id", 3], ["created_at", "2023-01-31 00:05:41.602025"], ["updated_at", "2023-01-31 00:05:41.602025"]]
+  ↳ app/controllers/front_view_controller.rb:10:in `create'
+  [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/front_view_controller.rb:10:in `create'
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 245ms (ActiveRecord: 6.0ms | Allocations: 12915)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-30 18:05:41 -0600
+Processing by FrontViewController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 10.8ms | Allocations: 2873)
+  Rendered layout layouts/application.html.erb (Duration: 98.8ms | Allocations: 5206)
+Completed 200 OK in 117ms (Views: 99.9ms | ActiveRecord: 0.0ms | Allocations: 5517)
+
+
