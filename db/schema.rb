@@ -10,29 +10,37 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_01_24_213327) do
+ActiveRecord::Schema[7.0].define(version: 2023_01_30_235713) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "assistances", force: :cascade do |t|
-    t.string "employee_num"
-    t.string "employee_name"
-    t.integer "assist"
+  create_table "assitances", force: :cascade do |t|
+    t.integer "assit"
     t.integer "absence"
-    t.time "checkin_time"
-    t.time "checkout_time"
+    t.time "checkin"
+    t.time "checkout"
+    t.bigint "front_views_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["front_views_id"], name: "index_assitances_on_front_views_id"
   end
 
   create_table "employees", force: :cascade do |t|
     t.string "email"
     t.string "name"
     t.string "position"
-    t.string "employee_num"
-    t.string "employee_private_num"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "employee_num"
+    t.integer "employee_private_num"
+  end
+
+  create_table "front_views", force: :cascade do |t|
+    t.string "check"
+    t.bigint "employee_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["employee_id"], name: "index_front_views_on_employee_id"
   end
 
   create_table "stores", force: :cascade do |t|
@@ -54,4 +62,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_01_24_213327) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  add_foreign_key "assitances", "front_views", column: "front_views_id"
+  add_foreign_key "front_views", "employees"
 end
