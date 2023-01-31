@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
     
@@ -14,17 +13,23 @@
 
   <body style="background-color: #d4d8d5;">
 
-    <% if user_signed_in? %>
+    <% if current_page?('/users/sign_in') %> 
       <header class="checkin_header">
-        <nav>   <h1> Empresa test </h1>  
-        <% if user_signed_in? %> 
-        <div> Welcome <%= current_user.email %> </div> 
-          <%= button_to "Sign out", destroy_user_session_path, method: :delete %>  
-        <% end %>   
-        </nav> 
+      <nav>   <h1> Empresa test </h1>    
+      </nav>
       </header>
-    <% end %>
+    <%else%>
 
+      <header class="checkin_header">
+      <nav>   <h1> Empresa test </h1>  
+      <% if user_signed_in? %>
+        <%= button_to "Sign out", destroy_user_session_path, method: :delete %> 
+      <% else %>
+        <%= button_to "Sign in", new_user_session_path, method: :get %> 
+      <% end %>   
+      </nav> 
+      </header>
+    <%end%>
     <%= yield %>
   </body>
 </html>
