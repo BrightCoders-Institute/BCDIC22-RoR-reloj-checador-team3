@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  assit: 1
+  absence: 1
+  checkin: 2023-01-30 17:57:13
+  checkout: 2023-01-30 17:57:13
+
+two:
+  assit: 1
+  absence: 1
+  checkin: 2023-01-30 17:57:13
+  checkout: 2023-01-30 17:57:13

@@ -46,7 +46,7 @@
   color: white;
   }
 #title h1{
-  font-size: 80px;
+  font-size: 60px;
   margin-top: 10px;
   text-align: center;
   width: 100%;
@@ -70,7 +70,7 @@ html {
   text-align: center;
   width: 100%;
   }
-.red-dot {
+.dot {
   color: black
   }
 #form_style {
@@ -110,6 +110,8 @@ input[type="submit" i] {
   padding-bottom: 5px;
   padding-top: 5px;
   width: 120px;
+  text-align: center;
+  justify-content: center;
   } 
 .login_title {
   align-items: center;
@@ -119,4 +121,10 @@ input[type="submit" i] {
   margin-bottom: 50px;
   margin-top: 50px;
   text-align: center;
-  }   
+  }
+.check__buttons_container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+}
