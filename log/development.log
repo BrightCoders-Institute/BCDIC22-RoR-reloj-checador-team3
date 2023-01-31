@@ -5264,3 +5264,225 @@ Processing by FrontViewController#index as TURBO_STREAM
 Completed 200 OK in 117ms (Views: 99.9ms | ActiveRecord: 0.0ms | Allocations: 5517)
 
 
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:8:in `<class:User>'
+  [1m[36mUser Exists? (6.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:8:in `<class:User>'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/models/user.rb:8:in `<class:User>'
+Started GET "/" for 127.0.0.1 at 2023-01-31 11:55:34 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 97.4ms | Allocations: 5697)
+  Rendered layout layouts/application.html.erb (Duration: 2701.1ms | Allocations: 50228)
+Completed 200 OK in 2785ms (Views: 2724.9ms | ActiveRecord: 0.0ms | Allocations: 53292)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-01-31 11:55:44 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 5.2ms | Allocations: 361)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 30.8ms | Allocations: 2401)
+  Rendered layout layouts/application.html.erb (Duration: 114.5ms | Allocations: 4813)
+Completed 200 OK in 158ms (Views: 126.9ms | ActiveRecord: 0.0ms | Allocations: 6446)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-31 11:56:37 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 3172)
+  Rendered layout layouts/application.html.erb (Duration: 85.8ms | Allocations: 6079)
+Completed 200 OK in 127ms (Views: 99.9ms | ActiveRecord: 0.0ms | Allocations: 6927)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-01-31 11:56:40 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 13.1ms | Allocations: 309)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 27.6ms | Allocations: 1635)
+  Rendered layout layouts/application.html.erb (Duration: 79.5ms | Allocations: 4059)
+Completed 200 OK in 104ms (Views: 88.9ms | ActiveRecord: 0.0ms | Allocations: 5183)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2023-01-31 11:56:47 -0600
+Processing by Devise::SessionsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/admin/admin_menu
+Completed 302 Found in 305ms (ActiveRecord: 0.9ms | Allocations: 3955)
+
+
+Started GET "/admin/admin_menu" for 127.0.0.1 at 2023-01-31 11:56:48 -0600
+Processing by AdminController#admin_menu as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering admin/admin_menu.html.erb within layouts/application
+  Rendered admin/admin_menu.html.erb within layouts/application (Duration: 99.5ms | Allocations: 2671)
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:25
+  Rendered layout layouts/application.html.erb (Duration: 175.3ms | Allocations: 6358)
+Completed 200 OK in 204ms (Views: 179.4ms | ActiveRecord: 0.9ms | Allocations: 7158)
+
+
+Started GET "/employees" for 127.0.0.1 at 2023-01-31 11:56:52 -0600
+Processing by EmployeesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (12.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/views/employees/index.html.erb:6
+  Rendered employees/index.html.erb within layouts/application (Duration: 34.2ms | Allocations: 5533)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:25
+  Rendered layout layouts/application.html.erb (Duration: 110.5ms | Allocations: 9023)
+Completed 200 OK in 180ms (Views: 95.9ms | ActiveRecord: 19.5ms | Allocations: 10792)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-01-31 11:56:57 -0600
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/admin/admin_menu
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 1.0ms | Allocations: 1608)
+
+
+Started GET "/admin/admin_menu" for 127.0.0.1 at 2023-01-31 11:56:57 -0600
+Processing by AdminController#admin_menu as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admin/admin_menu.html.erb within layouts/application
+  Rendered admin/admin_menu.html.erb within layouts/application (Duration: 77.4ms | Allocations: 1614)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:25
+  Rendered layout layouts/application.html.erb (Duration: 129.8ms | Allocations: 4945)
+Completed 200 OK in 153ms (Views: 131.0ms | ActiveRecord: 0.3ms | Allocations: 5225)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2023-01-31 11:56:59 -0600
+Processing by Devise::SessionsController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 39ms (ActiveRecord: 0.5ms | Allocations: 2648)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-31 11:57:00 -0600
+Processing by FrontViewController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 2654)
+  Rendered layout layouts/application.html.erb (Duration: 87.2ms | Allocations: 5152)
+Completed 200 OK in 109ms (Views: 89.0ms | ActiveRecord: 0.0ms | Allocations: 5462)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-31 11:57:14 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2561)
+  Rendered layout layouts/application.html.erb (Duration: 98.7ms | Allocations: 4918)
+Completed 200 OK in 133ms (Views: 100.0ms | ActiveRecord: 0.0ms | Allocations: 5183)
+
+
+Started POST "/front_view" for 127.0.0.1 at 2023-01-31 11:57:29 -0600
+Processing by FrontViewController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "employee_num"=>"101", "employee_private_num"=>"1001", "check"=>"in"}
+[31mUnpermitted parameters: :authenticity_token, :check. Context: { controller: FrontViewController, action: create, request: #<ActionDispatch::Request:0x00007f15adbbce10>, params: {"authenticity_token"=>"[FILTERED]", "employee_num"=>"101", "employee_private_num"=>"1001", "check"=>"in", "controller"=>"front_view", "action"=>"create"} }[0m
+  [1m[36mEmployee Load (0.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees" WHERE "employees"."employee_num" = $1 AND "employees"."employee_private_num" = $2 LIMIT $3[0m  [["employee_num", 101], ["employee_private_num", 1001], ["LIMIT", 1]]
+  ↳ app/controllers/front_view_controller.rb:7:in `create'
+[31mUnpermitted parameters: :authenticity_token, :employee_num, :employee_private_num. Context: { controller: FrontViewController, action: create, request: #<ActionDispatch::Request:0x00007f15adbbce10>, params: {"authenticity_token"=>"[FILTERED]", "employee_num"=>"101", "employee_private_num"=>"1001", "check"=>"in", "controller"=>"front_view", "action"=>"create"} }[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/front_view_controller.rb:10:in `create'
+  [1m[36mEmployee Load (10.0ms)[0m  [1m[34mSELECT "employees".* FROM "employees" WHERE "employees"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/front_view_controller.rb:10:in `create'
+  [1m[36mFrontView Create (5.6ms)[0m  [1m[32mINSERT INTO "front_views" ("check", "employee_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["check", "in"], ["employee_id", 3], ["created_at", "2023-01-31 17:57:29.626058"], ["updated_at", "2023-01-31 17:57:29.626058"]]
+  ↳ app/controllers/front_view_controller.rb:10:in `create'
+  [1m[36mTRANSACTION (4.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/front_view_controller.rb:10:in `create'
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 294ms (ActiveRecord: 23.7ms | Allocations: 13765)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-31 11:57:29 -0600
+Processing by FrontViewController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 2690)
+  Rendered layout layouts/application.html.erb (Duration: 86.3ms | Allocations: 5181)
+Completed 200 OK in 104ms (Views: 87.5ms | ActiveRecord: 0.0ms | Allocations: 5492)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-31 11:57:39 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 9.7ms | Allocations: 2566)
+  Rendered layout layouts/application.html.erb (Duration: 113.2ms | Allocations: 4922)
+Completed 200 OK in 138ms (Views: 114.6ms | ActiveRecord: 0.0ms | Allocations: 5181)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-31 11:58:19 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 43.4ms | Allocations: 3169)
+  Rendered layout layouts/application.html.erb (Duration: 122.5ms | Allocations: 6082)
+Completed 200 OK in 173ms (Views: 138.9ms | ActiveRecord: 0.0ms | Allocations: 6920)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-31 11:58:33 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 8.0ms | Allocations: 3152)
+  Rendered layout layouts/application.html.erb (Duration: 85.5ms | Allocations: 6071)
+Completed 200 OK in 113ms (Views: 94.1ms | ActiveRecord: 0.0ms | Allocations: 6910)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-31 11:58:51 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 8.6ms | Allocations: 3152)
+  Rendered layout layouts/application.html.erb (Duration: 81.6ms | Allocations: 6058)
+Completed 200 OK in 111ms (Views: 91.5ms | ActiveRecord: 0.0ms | Allocations: 6895)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-31 11:59:04 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 3155)
+  Rendered layout layouts/application.html.erb (Duration: 82.9ms | Allocations: 6062)
+Completed 200 OK in 122ms (Views: 95.2ms | ActiveRecord: 0.0ms | Allocations: 6906)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-31 11:59:16 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 3147)
+  Rendered layout layouts/application.html.erb (Duration: 82.6ms | Allocations: 6053)
+Completed 200 OK in 118ms (Views: 94.6ms | ActiveRecord: 0.0ms | Allocations: 6890)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-31 11:59:30 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 3175)
+  Rendered layout layouts/application.html.erb (Duration: 113.3ms | Allocations: 6086)
+Completed 200 OK in 158ms (Views: 127.2ms | ActiveRecord: 0.0ms | Allocations: 6923)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-31 11:59:41 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 3169)
+  Rendered layout layouts/application.html.erb (Duration: 86.3ms | Allocations: 6079)
+Completed 200 OK in 119ms (Views: 96.9ms | ActiveRecord: 0.0ms | Allocations: 6918)
+
+

@@ -1,20 +1,6 @@
 <div>
 
-  <% if user_signed_in? %> 
 
-  <%else%>
-
-  <header class="checkin_header">
-  <nav>   <h1> Empresa test </h1>
-  <% if user_signed_in? %> 
-  <div> Welcome <%= current_user.email %> </div> 
-    <%= button_to "Sign out", destroy_user_session_path, method: :delete %> 
-  <% else %>
-    <%= button_to "Sign in", new_user_session_path, method: :get %> 
-  <% end %> 
-  </nav> 
-  </header>
-<%end%>
   <div id="title"> <h1>Check-in/out</h1> </div>
 
   <div id='digital-clock'>
