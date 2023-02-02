@@ -9068,3 +9068,54 @@ Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.3ms | Allocations: 882
   ↳ app/models/user.rb:8:in `<class:User>'
   [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
   ↳ app/models/user.rb:8:in `<class:User>'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:8:in `<class:User>'
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:8:in `<class:User>'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/models/user.rb:8:in `<class:User>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:8:in `<class:User>'
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:8:in `<class:User>'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/models/user.rb:8:in `<class:User>'
+Started GET "/" for 127.0.0.1 at 2023-02-02 16:11:45 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (30.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 71.6ms | Allocations: 5073)
+  Rendered layout layouts/application.html.erb (Duration: 379.2ms | Allocations: 53927)
+Completed 200 OK in 389ms (Views: 382.3ms | ActiveRecord: 0.0ms | Allocations: 56990)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-02-02 16:11:52 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 6.9ms | Allocations: 361)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 35.2ms | Allocations: 2401)
+  Rendered layout layouts/application.html.erb (Duration: 38.9ms | Allocations: 5752)
+Completed 200 OK in 44ms (Views: 40.5ms | ActiveRecord: 0.0ms | Allocations: 7409)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2023-02-02 16:12:04 -0600
+Processing by Devise::SessionsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/admin/admin_menu
+Completed 302 Found in 229ms (ActiveRecord: 0.5ms | Allocations: 3967)
+
+
+Started GET "/admin/admin_menu" for 127.0.0.1 at 2023-02-02 16:12:05 -0600
+Processing by AdminController#admin_menu as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering admin/admin_menu.html.erb within layouts/application
+  Rendered admin/admin_menu.html.erb within layouts/application (Duration: 12.8ms | Allocations: 3063)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:25
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | Allocations: 7689)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.3ms | Allocations: 8491)
+
+
