@@ -14,6 +14,17 @@ ActiveRecord::Schema[7.0].define(version: 2023_01_30_235713) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "assistances", force: :cascade do |t|
+    t.string "employee_num"
+    t.string "employee_name"
+    t.integer "assist"
+    t.integer "absence"
+    t.time "checkin_time"
+    t.time "checkout_time"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "assitances", force: :cascade do |t|
     t.integer "assit"
     t.integer "absence"
