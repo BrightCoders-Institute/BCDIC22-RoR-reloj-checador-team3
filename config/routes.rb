@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-
+  get 'reports/index'
+  get 'reports/generate_report'
   root 'front_view#index'
 
   devise_for :users, :skip => [:registrations]
@@ -17,4 +18,3 @@ Rails.application.routes.draw do
   resources :front_view
 
 end
-
