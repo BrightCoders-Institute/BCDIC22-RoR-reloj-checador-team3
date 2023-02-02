@@ -5,7 +5,7 @@
   <%= link_to 'Register employee', new_employee_path %>
   <% if @employees.present? %>
     <div class="row justify-content-center">
-      <table class="table table-bordered">
+      <table class="table table-bordered table-dark">
         <thead>
           <tr>
             <th scope="col">Email</th>
@@ -35,10 +35,9 @@
       </table>
     </div>
   <% else %>
-    <div class="p-3 mb-2 bg-light text-dark">
+    <div class="p-3 mb-2 bg-dark text-light">
       <span class="text-info font-weight-bold">Welcome! </span>
-      Create your first post
+      Register an employee
     </div>
   <% end %>
 </div>
-
