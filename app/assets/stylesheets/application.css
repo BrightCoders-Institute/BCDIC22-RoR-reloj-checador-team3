@@ -13,10 +13,26 @@
  *= require_tree .
  *= require_self
  */
-.checkin_header{
+.checkin_header {
   background-color: #2c2b37;
-  }
-.checkin_header nav{
+}
+
+.checkin_header nav,
+a {
+  color: white;
+  font-size: 30px;
+  margin-right: 100px;
+}
+
+.checkin_header a:hover {
+  color: grey;
+}
+
+.checkin_header {
+  background-color: #2c2b37;
+}
+
+.checkin_header nav {
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -26,8 +42,9 @@
   padding-bottom: 10px;
   padding-top: 10px;
   width: 90%;
-  }
-.checkin_header nav button{
+}
+
+.checkin_header nav button {
   background-color: #244c94;
   border-radius: 3px;
   border-style: hidden;
@@ -36,23 +53,44 @@
   padding-bottom: 5px;
   padding-top: 5px;
   width: 120px;
-  }
+}
+
 .checkin_header nav button:hover {
   background-color: #1cadfc;
   color: black;
-  }
-.checkin_header nav h1{
+}
+
+.checkin_header nav h1 {
   color: white;
-  }
-#title h1{
+}
+
+
+
+.checkin_header nav button:hover {
+  background-color: #1cadfc;
+  color: black;
+}
+
+.checkin_header nav h1 {
+  color: white;
+}
+
+#title h1 {
   font-size: 60px;
   margin-top: 10px;
   text-align: center;
   width: 100%;
-  }
+}
+
 html {
   height: 100%;
-  }
+}
+
+
+html {
+  height: 100%;
+}
+
 #current_date {
   display: flex;
   font-size: 30px;
@@ -60,7 +98,8 @@ html {
   justify-content: center;
   margin-bottom: 35px;
   text-align: center;
-  }
+}
+
 #digital-clock {
   color: black;
   font-size: 120px;
@@ -68,26 +107,40 @@ html {
   margin-bottom: 0%;
   text-align: center;
   width: 100%;
-  }
+}
+
 .dot {
   color: black
-  }
+}
+
+.dot {
+  color: black
+}
+
 #form_style {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  }
+}
+
 form label {
   font-size: 25px;
-  }
+}
+
+form label {
+  font-size: 25px;
+}
+
 form input {
   border-radius: 3px;
   border-style: hidden;
   margin-bottom: 30px;
   width: 250px;
-  }
+}
+
+
 form button {
   background-color: #007bff;
   border-radius: 3px;
@@ -97,10 +150,17 @@ form button {
   padding-bottom: 5px;
   padding-top: 5px;
   width: 120px;
-  }
+}
+
 form button:hover {
   background-color: #1cadfc;
-  }
+}
+
+
+form button:hover {
+  background-color: #1cadfc;
+}
+
 input[type="submit" i] {
   background-color: #007bff;
   border-radius: 3px;
@@ -112,7 +172,8 @@ input[type="submit" i] {
   padding-top: 5px;
   text-align: center;
   width: 120px;
-  }
+}
+
 .login_title {
   align-items: center;
   font-size: 50px;
@@ -121,18 +182,27 @@ input[type="submit" i] {
   margin-bottom: 50px;
   margin-top: 50px;
   text-align: center;
-  }
+}
+
+table {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+}
+
 .check__buttons_container {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  }
+}
+
 .graphs {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   width: 80%;
-  }
+}
+
 .graphs_bar {
   display: flex;
   flex-direction: column;
@@ -141,4 +211,5 @@ input[type="submit" i] {
   margin-right: auto;
   text-align: center;
   width: 80%;
-   }
+}
+
