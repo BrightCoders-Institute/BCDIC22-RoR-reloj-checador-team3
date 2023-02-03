@@ -10,6 +10,7 @@ config/database.yml
 /log/*
 /tmp/*
 !/log/.keep
+!/log/.development.log
 !/tmp/.keep
 
 /tmp/pids/*
