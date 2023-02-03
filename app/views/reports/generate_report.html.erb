@@ -1,22 +1,52 @@
-<div id="title"> <h1> January reports </h1> </div>
+<div id="title"> <h1> Reports </h1> </div>
 
-<div class="row justify-content-center">
-    <table class="table table-bordered table-dark">
-        <tr> 
-            <td> January attendances on day 1: </td>
-            <td>150</td>
+<div>
+    <div class="graphs mb-5 mt-5">
+        <h3>Attendance by day:</h3>
+        <%= line_chart FrontView.group(:check).group_by_day(:created_at).count %>
+    </div>
+
+    <div class="graphs  mb-5">
+        <div class="graphs_bar mb-5">
+            <h3>checkin :</h3>
+            <%= bar_chart FrontView.where(check: 'in').group_by_month(:created_at, format: "%Y-%B").count %>
+        </div>
+         <div class="graphs_bar">
+            <h3>check off:</h3>
+            <%= bar_chart FrontView.where(check: 'off').group_by_month(:created_at, format: "%Y-%B").count %>
+        </div>
+    </div>
+
+    <div class="m-5 mb-5 text-center">
+    <h3>Absences</h3>
+        <table class="table table-bordered table-dark table-hover">
+        <tr class="">
+            <th>ID</th>
+            <th>NAME</th>
+            <th>DAYS WITH CHECK</th>
+            <th>DAYS WITHOUT CHECK</th>
         </tr>
-        <tr>
-            <td> January average check in:: </td>
-            <td>12:00</td>
-        </tr>
-        <tr>
-            <td> January average check out: </td>
-            <td>10:00</td>
-        </tr>
-        <tr> 
-            <td> January absences on day 1: </td>
-            <td>50</td>
-        </tr>
-    </table>
+        <% @employees.each do |employee|  %>
+            <% result = (employee.front_views.group_by_day(:created_at, range: employee.front_views.maximum(:created_at)..Time.now).count)%>
+            <% daysYes = result.select { |k, v| v==1 }.keys %>
+            <% daysNo = result.select { |k, v| v==0 }.keys %>
+            <tr>
+            <td><%= employee.id %></td>
+            <td><%= employee.name %></td>
+            <td>
+                <% daysYes.each do |d| %>
+                <%= simple_format "#{d.strftime('%B / %d / %Y ')} \n" %>
+                <% end %>
+            </td>
+            <td>
+                <% daysNo.each do |d| %>
+                <%= simple_format "#{d.strftime('%B / %d / %Y ')} \n" %>
+                <% end %>
+            </td>
+            </tr>
+        <% end %>
+        </table>
+    </div>
+
 </div>
+

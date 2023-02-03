@@ -15,6 +15,8 @@ Rails.application.routes.draw do
 
   resources :stores
 
+  resources :reports
+
   resources :front_view
 
 end
