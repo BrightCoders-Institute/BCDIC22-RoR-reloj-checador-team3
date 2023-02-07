@@ -64,8 +64,6 @@ a {
   color: white;
 }
 
-
-
 .checkin_header nav button:hover {
   background-color: #1cadfc;
   color: black;
@@ -85,7 +83,6 @@ a {
 html {
   height: 100%;
 }
-
 
 html {
   height: 100%;
@@ -140,7 +137,6 @@ form input {
   width: 250px;
 }
 
-
 form button {
   background-color: #007bff;
   border-radius: 3px;
@@ -155,7 +151,6 @@ form button {
 form button:hover {
   background-color: #1cadfc;
 }
-
 
 form button:hover {
   background-color: #1cadfc;
@@ -212,4 +207,3 @@ table {
   text-align: center;
   width: 80%;
 }
-

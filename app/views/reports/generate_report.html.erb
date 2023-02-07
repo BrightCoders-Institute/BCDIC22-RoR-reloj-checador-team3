@@ -11,14 +11,14 @@
             <h3>checkin :</h3>
             <%= bar_chart FrontView.where(check: 'in').group_by_month(:created_at, format: "%Y-%B").count %>
         </div>
-         <div class="graphs_bar">
+        <div class="graphs_bar">
             <h3>check off:</h3>
             <%= bar_chart FrontView.where(check: 'off').group_by_month(:created_at, format: "%Y-%B").count %>
         </div>
     </div>
 
     <div class="m-5 mb-5 text-center">
-    <h3>Absences</h3>
+        <h3>Absences</h3>
         <table class="table table-bordered table-dark table-hover">
         <tr class="">
             <th>ID</th>
@@ -27,26 +27,24 @@
             <th>DAYS WITHOUT CHECK</th>
         </tr>
         <% @employees.each do |employee|  %>
-            <% result = (employee.front_views.group_by_day(:created_at, range: employee.front_views.maximum(:created_at)..Time.now).count)%>
-            <% daysYes = result.select { |k, v| v==1 }.keys %>
-            <% daysNo = result.select { |k, v| v==0 }.keys %>
-            <tr>
+        <% result = (employee.front_views.group_by_day(:created_at, range: employee.front_views.maximum(:created_at)..Time.now).count)%>
+        <% daysYes = result.select { |k, v| v==1 }.keys %>
+        <% daysNo = result.select { |k, v| v==0 }.keys %>
+        <tr>
             <td><%= employee.id %></td>
             <td><%= employee.name %></td>
             <td>
-                <% daysYes.each do |d| %>
-                <%= simple_format "#{d.strftime('%B / %d / %Y ')} \n" %>
-                <% end %>
+            <% daysYes.each do |d| %>
+            <%= simple_format "#{d.strftime('%B / %d / %Y ')} \n" %>
+            <% end %>
             </td>
             <td>
-                <% daysNo.each do |d| %>
-                <%= simple_format "#{d.strftime('%B / %d / %Y ')} \n" %>
-                <% end %>
+            <% daysNo.each do |d| %>
+            <%= simple_format "#{d.strftime('%B / %d / %Y ')} \n" %>
+            <% end %>
             </td>
             </tr>
         <% end %>
         </table>
     </div>
-
 </div>
-
