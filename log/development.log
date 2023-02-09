@@ -1,0 +1,186 @@
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mUser Exists? (5.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[35m (32.9ms)[0m  [1m[35mDROP TABLE "employees"[0m
+  [1m[35m (36.2ms)[0m  [1m[35mDROP TABLE "stores"[0m
+  [1m[35m (15.7ms)[0m  [1m[35mDROP TABLE "assistances"[0m
+  [1m[35m (9.9ms)[0m  [1m[35mDROP TABLE "assitances"[0m
+  [1m[35m (11.7ms)[0m  [1m[35mDROP TABLE "front_views"[0m
+  [1m[35m (11.4ms)[0m  [1m[35mDROP TABLE "employees"[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mUser Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mUser Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mUser Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mUser Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mUser Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3023990675252534715)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (3.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateEmployees (20230209171720)
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT pg_advisory_unlock(3023990675252534715)[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3023990675252534715)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateEmployees (20230209171720)
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(3023990675252534715)[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mUser Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3023990675252534715)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateEmployees (20230209171720)
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (56.8ms)[0m  [1m[35mCREATE TABLE "employees" ("id" bigserial primary key, "email" character varying, "name" character varying, "position" character varying, "employee_num" integer, "employee_private_num" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (2.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230209171720"]]
+  [1m[36mTRANSACTION (5.9ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateStores (20230209172758)
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (10.8ms)[0m  [1m[35mCREATE TABLE "stores" ("id" bigserial primary key, "name" character varying, "address" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230209172758"]]
+  [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (3.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(3023990675252534715)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mUser Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3023990675252534715)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(3023990675252534715)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mUser Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mUser Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3023990675252534715)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateFrontViews (20230209174423)
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (33.6ms)[0m  [1m[35mCREATE TABLE "front_views" ("id" bigserial primary key, "check" character varying, "employee_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, CONSTRAINT "fk_rails_5d2449d35c"
+FOREIGN KEY ("employee_id")
+  REFERENCES "employees" ("id")
+)[0m
+  [1m[35m (6.5ms)[0m  [1m[35mCREATE INDEX "index_front_views_on_employee_id" ON "front_views" ("employee_id")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230209174423"]]
+  [1m[36mTRANSACTION (5.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_advisory_unlock(3023990675252534715)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:9:in `<class:User>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/models/user.rb:9:in `<class:User>'
+Started GET "/" for 127.0.0.1 at 2023-02-09 11:47:56 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 234.8ms | Allocations: 5053)
+  Rendered layout layouts/application.html.erb (Duration: 8719.5ms | Allocations: 58987)
+Completed 200 OK in 8920ms (Views: 8786.0ms | ActiveRecord: 0.0ms | Allocations: 62065)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-02-09 11:49:07 -0600
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 8.8ms | Allocations: 369)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 237.2ms | Allocations: 4097)
+  Rendered layout layouts/application.html.erb (Duration: 1535.3ms | Allocations: 46133)
+Completed 200 OK in 1752ms (Views: 1648.4ms | ActiveRecord: 0.0ms | Allocations: 50200)
+
+
+Started GET "/front_view" for 127.0.0.1 at 2023-02-09 11:49:12 -0600
+Processing by FrontViewController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering front_view/index.html.erb within layouts/application
+  Rendered front_view/index.html.erb within layouts/application (Duration: 11.4ms | Allocations: 3347)
+  Rendered layout layouts/application.html.erb (Duration: 96.9ms | Allocations: 6599)
+Completed 200 OK in 123ms (Views: 101.6ms | ActiveRecord: 0.0ms | Allocations: 7430)
+
+
