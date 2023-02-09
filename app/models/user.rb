@@ -4,6 +4,7 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
-         u = User.new(:email => "admin@example.com", :password => 'password', :password_confirmation => 'password')
-         u.save
+
+        u = User.new(:email => "admin@example.com", :password => 'password', :password_confirmation => 'password')
+        u.save
 end
